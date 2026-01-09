@@ -2,21 +2,21 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: vote
-  name: vote
+    app: redis
+  name: redis
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: vote
+      app: redis
   strategy: {}
   template:
     metadata:
       labels:
-        app: vote
+        app: redis
     spec:
       containers:
-      - image: schoolofdevops/vote:v1
-        name: vote
+      - image: redis:alpine
+        name: redis
         resources: {}
 status: {}
