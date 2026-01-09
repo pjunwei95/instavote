@@ -1,9 +1,9 @@
 apiVersion: apps/v1  
 kind: Deployment  
 metadata:  
-creationTimestamp: null  
-labels:  
-app: vote  
+  creationTimestamp: null  
+  labels:  
+    app: vote  
   name: vote  
 spec:  
   replicas: 5  
