@@ -7,10 +7,11 @@ metadata:
 name: vote  
 spec:  
   minReadySeconds: 20  
-  replicas: f
+  replicas: 4
   template:  
     spec:  
       containers:  
       - image: schoolofdevops/vote:v4  
         name: vote 
+
 
