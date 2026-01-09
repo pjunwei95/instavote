@@ -14,7 +14,7 @@ replicas:
     count: 2
 commonLabels:  
   project: instavote  
-  # env: staging  
+  env: staging  
 commonAnnotations:  
   supported-by: "sre@example.com"
 configMapGenerator:
