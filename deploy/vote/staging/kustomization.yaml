@@ -12,9 +12,9 @@ images:
 replicas:  
   - name: vote  
     count: 2
-commonLabels:  
+# commonLabels:  
   # project: instavote  
-  env: staging  
+  # env: staging  
 commonAnnotations:  
   supported-by: "sre@example.com"
 configMapGenerator:
