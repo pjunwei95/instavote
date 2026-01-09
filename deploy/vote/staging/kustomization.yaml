@@ -12,8 +12,8 @@ images:
 replicas:  
   - name: vote  
     count: 2
-# commonLabels:  
-  # project: instavote  
+commonLabels:  
+  project: instavote  
   # env: staging  
 commonAnnotations:  
   supported-by: "sre@example.com"
